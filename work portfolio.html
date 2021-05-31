@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body{
+                background-image: radial-gradient(rgb(199, 199, 110),rgb(197, 124, 197))
+            }
+            div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover  {
+  border: 1px solid black;
+  box-shadow: 2px 20px 30px 2px rgba(48, 49, 43, 0.377);
+  
+  
+}
+.gallery:hover .overlay{
+  opacity: 0.99;
+}
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+
+
+*{
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 5px 10px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.9999%
+
+    
+    
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+.overlay {
+  position:relative;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: rgba(142, 68, 172, 0.514);
+  text-shadow: 2px 2px 4px white;
+
+  
+  
+  
+  
+}
+
+        </style>
+    </head>
+    <body>
+        <div class="responsive">
+     <div class="gallery">
+         <a href="#" target="_blank" >
+             <img src="Aa.jpg" alt="to" width="200" height="100">
+                     </a>
+                     <div class="desc overlay">My First Work</div>
+     </div> </div>
+     <div class="responsive">
+     <div class="gallery">
+        <a href="#" target="_blank" >
+            <img src="Y.jpg" alt="ti" width="200" height="100">
+                    </a>
+                    <div class="overlay">My First Work</div>
+    </div>
+</div>
+<div class="responsive">
+    <div class="gallery">
+        <a href="#" target="_blank" >
+            <img src="z.jpg" alt="ta" width="200" height="100">
+                    </a>
+                    <div class="overlay">My Second Work</div>
+    </div> </div>
+    <div class="responsive">
+    <div class="gallery">
+        <a href="#" target="_blank" >
+            <img src="X.jpg" alt="tm" width="200" height="100">
+         </a>
+         <div class="overlay">My Second Work</div>
+    </div> </div>
+    <div class="responsive">
+      <div class="gallery">
+          <a href="#" target="_blank" >
+              <img src="2021-05-31 (6).png" alt="ra" width="200" height="100">
+                      </a>
+                      <div class="overlay">My Third Work</div>
+      </div> </div>
+      <div class="responsive">
+        <div class="gallery">
+            <a href="#" target="_blank" >
+                <img src="2021-05-31 (7).png" alt="roa" width="200" height="100">
+                        </a>
+                        <div class="overlay">My fourth Work</div>
+        </div> </div>
+        <div class="responsive">
+          <div class="gallery">
+              <a href="#" target="_blank" >
+                  <img src="2021-05-31 (5).png" alt="rx" width="200" height="100">
+                          </a>
+                          <div class="overlay">My Fifth Work</div>
+          </div> </div>
+          <div class="responsive">
+            <div class="gallery">
+                <a href="#" target="_blank" >
+                    <img src="2021-05-31 (9).png" alt="rc" width="200" height="100">
+                            </a>
+                            <div class="overlay">My Sixth Work</div>
+            </div> </div>
+            <div class="responsive">
+              <div class="gallery">
+                  <a href="#" target="_blank" >
+                      <img src="2021-05-31 (10).png" alt="ry" width="200" height="100">
+                              </a>
+                              <div class="overlay">My Seventh Work</div>
+              </div> </div>
+    </body>
+</html>
